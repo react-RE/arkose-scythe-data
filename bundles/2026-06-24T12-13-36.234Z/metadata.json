@@ -1,0 +1,473 @@
+{
+  "session": {
+    "timestamp": "2026-06-24T12:13:36.234Z",
+    "url": "https://github.com/signup",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "success": true,
+    "retryCount": 0
+  },
+  "frames": [
+    {
+      "id": "F8FBB36426A06674AE29BB057C0D46A8",
+      "url": "https://github-api.arkoselabs.com/v2/4.4.0/enforcement.596c5ff4eaf41634b5cff43e3bfa7da3.html",
+      "parentId": "C9ECFAA691A7B32989A2B806CFA491B4",
+      "foundAt": "2026-06-24T12:13:42.419Z"
+    },
+    {
+      "id": "E33CD7798B5DE46FB474C251A3B61F86",
+      "url": "https://github-api.arkoselabs.com/cdn/fc/assets/pow/2.4.0/standard/index.html",
+      "parentId": "F8FBB36426A06674AE29BB057C0D46A8",
+      "foundAt": "2026-06-24T12:13:42.666Z"
+    },
+    {
+      "id": "187E4226CE6C9EECEE01116FB7D3F5A4",
+      "url": "https://github-api.arkoselabs.com/fc/assets/ec-game-core/game-core/1.35.0/standard/index.html?session=83718bc0356118553.4525458002&r=us-west-2&meta=3&meta_width=300&metabgclr=transparent&metaiconclr=%23555555&guitextcolor=%23000000&lang=en&pk=747B83EC-2CA3-43AD-A7DF-701F286FBABA&dc=1&at=40&ag=101&cdn_url=https%3A%2F%2Fgithub-api.arkoselabs.com%2Fcdn%2Ffc&surl=https%3A%2F%2Fgithub-api.arkoselabs.com&smurl=https%3A%2F%2Fgithub-api.arkoselabs.com%2Fcdn%2Ffc%2Fassets%2Fstyle-manager",
+      "parentId": "F8FBB36426A06674AE29BB057C0D46A8",
+      "foundAt": "2026-06-24T12:13:58.333Z"
+    }
+  ],
+  "captures": [
+    {
+      "url": "https://github-api.arkoselabs.com/v2/747B83EC-2CA3-43AD-A7DF-701F286FBABA/api.js",
+      "type": "js-bundle",
+      "label": "enforcement",
+      "size": 299188,
+      "path": "../arkose-scythe-data/bundles/2026-06-24T12-13-36.234Z/js/enforcement_120fcc72.js",
+      "timestamp": "2026-06-24T12:13:42.147Z",
+      "mimeType": "application/javascript",
+      "headers": {
+        "etag": "W/\"ca906778ef414909db6f8fcacd2e01b2\"",
+        "lastModified": "Tue, 23 Jun 2026 03:51:16 GMT",
+        "contentLength": "299188",
+        "contentType": "application/javascript; charset=utf-8"
+      },
+      "timing": {
+        "start": "2026-06-24T12:13:41.439Z",
+        "end": "2026-06-24T12:13:41.439Z",
+        "durationMs": null
+      }
+    },
+    {
+      "url": "https://github-api.arkoselabs.com/fc/gt2/public_key/747B83EC-2CA3-43AD-A7DF-701F286FBABA",
+      "type": "api-response",
+      "label": "gt2",
+      "size": 2942,
+      "path": "../arkose-scythe-data/bundles/2026-06-24T12-13-36.234Z/api/gt2.json",
+      "timestamp": "2026-06-24T12:13:42.409Z",
+      "mimeType": "application/json",
+      "headers": {
+        "etag": null,
+        "lastModified": null,
+        "contentLength": "2942",
+        "contentType": "text/plain; charset=utf-8"
+      },
+      "timing": {
+        "start": "2026-06-24T12:13:42.397Z",
+        "end": "2026-06-24T12:13:42.398Z",
+        "durationMs": 1
+      }
+    },
+    {
+      "url": "https://github-api.arkoselabs.com/v2/4.4.0/enforcement.596c5ff4eaf41634b5cff43e3bfa7da3.js",
+      "type": "js-bundle",
+      "label": "game-core",
+      "size": 100778,
+      "path": "../arkose-scythe-data/bundles/2026-06-24T12-13-36.234Z/js/game-core_092575c3.js",
+      "timestamp": "2026-06-24T12:13:42.462Z",
+      "mimeType": "application/javascript",
+      "headers": {
+        "etag": "W/\"2c9c8cf184154a2e3d6d63e8029e363f\"",
+        "lastModified": "Tue, 23 Jun 2026 03:51:15 GMT",
+        "contentLength": "100778",
+        "contentType": "application/javascript; charset=utf-8"
+      },
+      "timing": {
+        "start": "2026-06-24T12:13:42.441Z",
+        "end": "2026-06-24T12:13:42.441Z",
+        "durationMs": null
+      }
+    },
+    {
+      "url": "https://github-api.arkoselabs.com/cdn/fc/assets/ec-game-core/bootstrap/1.35.0/standard/game_core_bootstrap.js",
+      "type": "js-bundle",
+      "label": "game-core",
+      "size": 216521,
+      "path": "../arkose-scythe-data/bundles/2026-06-24T12-13-36.234Z/js/game-core_6b33e6c6.js",
+      "timestamp": "2026-06-24T12:13:42.528Z",
+      "mimeType": "application/javascript",
+      "headers": {
+        "etag": "W/\"5ed9044a30bd80db27737b2fcb11e648\"",
+        "lastModified": "Thu, 04 Jun 2026 04:10:05 GMT",
+        "contentLength": "216521",
+        "contentType": "text/javascript"
+      },
+      "timing": {
+        "start": "2026-06-24T12:13:42.482Z",
+        "end": "2026-06-24T12:13:42.483Z",
+        "durationMs": 1
+      }
+    },
+    {
+      "url": "https://github-api.arkoselabs.com/cdn/fc/assets/pow/2.4.0/standard/main.3476dc949e20122fa446.js",
+      "type": "js-bundle",
+      "label": "unknown",
+      "size": 38689,
+      "path": "../arkose-scythe-data/bundles/2026-06-24T12-13-36.234Z/js/unknown_f9e1761a.js",
+      "timestamp": "2026-06-24T12:13:42.687Z",
+      "mimeType": "application/javascript",
+      "headers": {
+        "etag": "W/\"84ecb6bba50c446f1f1c82f0f1b6e7ac\"",
+        "lastModified": "Wed, 15 Apr 2026 09:26:39 GMT",
+        "contentLength": "38689",
+        "contentType": "text/javascript"
+      },
+      "timing": {
+        "start": "2026-06-24T12:13:42.682Z",
+        "end": "2026-06-24T12:13:42.682Z",
+        "durationMs": null
+      }
+    },
+    {
+      "url": "https://github-api.arkoselabs.com/fc/assets/ec-game-core/game-core/1.35.0/standard/main.932a5474d2d8a9ff56c4.js",
+      "type": "js-bundle",
+      "label": "game-core",
+      "size": 11140,
+      "path": "../arkose-scythe-data/bundles/2026-06-24T12-13-36.234Z/js/game-core_6815138c.js",
+      "timestamp": "2026-06-24T12:13:58.357Z",
+      "mimeType": "application/javascript",
+      "headers": {
+        "etag": "W/\"17d97d87295b808bffde5f770d43731e\"",
+        "lastModified": "Thu, 04 Jun 2026 04:12:14 GMT",
+        "contentLength": "11140",
+        "contentType": "text/javascript"
+      },
+      "timing": {
+        "start": "2026-06-24T12:13:58.349Z",
+        "end": "2026-06-24T12:13:58.349Z",
+        "durationMs": null
+      }
+    },
+    {
+      "url": "https://github-api.arkoselabs.com/fc/assets/ec-game-core/game-core/1.35.0/standard/378.chunk.aa6963b5bcbca365b651.js",
+      "type": "js-bundle",
+      "label": "game-core",
+      "size": 12650,
+      "path": "../arkose-scythe-data/bundles/2026-06-24T12-13-36.234Z/js/game-core_6cc72b61.js",
+      "timestamp": "2026-06-24T12:13:58.368Z",
+      "mimeType": "application/javascript",
+      "headers": {
+        "etag": "W/\"b203216579b6b815e32fdb8bf4a7b2fc\"",
+        "lastModified": "Thu, 04 Jun 2026 04:12:14 GMT",
+        "contentLength": "12650",
+        "contentType": "text/javascript"
+      },
+      "timing": {
+        "start": "2026-06-24T12:13:58.363Z",
+        "end": "2026-06-24T12:13:58.363Z",
+        "durationMs": null
+      }
+    },
+    {
+      "url": "https://github-api.arkoselabs.com/fc/assets/ec-game-core/game-core/1.35.0/standard/lib.chunk.06ec780b9615da7eacbd.js",
+      "type": "js-bundle",
+      "label": "audio-ui",
+      "size": 38876,
+      "path": "../arkose-scythe-data/bundles/2026-06-24T12-13-36.234Z/js/audio-ui_20190a46.js",
+      "timestamp": "2026-06-24T12:13:58.369Z",
+      "mimeType": "application/javascript",
+      "headers": {
+        "etag": "W/\"48978b181acffc7e21111c25820aaa5a\"",
+        "lastModified": "Thu, 04 Jun 2026 04:12:14 GMT",
+        "contentLength": "38876",
+        "contentType": "text/javascript"
+      },
+      "timing": {
+        "start": "2026-06-24T12:13:58.366Z",
+        "end": "2026-06-24T12:13:58.366Z",
+        "durationMs": null
+      }
+    },
+    {
+      "url": "https://github-api.arkoselabs.com/fc/assets/ec-game-core/game-core/1.35.0/standard/542.vendors.abe0e64e95582406fe38.js",
+      "type": "js-bundle",
+      "label": "audio-ui",
+      "size": 124339,
+      "path": "../arkose-scythe-data/bundles/2026-06-24T12-13-36.234Z/js/audio-ui_0c60b4ab.js",
+      "timestamp": "2026-06-24T12:13:58.384Z",
+      "mimeType": "application/javascript",
+      "headers": {
+        "etag": "W/\"dbc6d0247b75da98430e62f27fb07e9f\"",
+        "lastModified": "Thu, 04 Jun 2026 04:12:14 GMT",
+        "contentLength": "124339",
+        "contentType": "text/javascript"
+      },
+      "timing": {
+        "start": "2026-06-24T12:13:58.373Z",
+        "end": "2026-06-24T12:13:58.373Z",
+        "durationMs": null
+      }
+    },
+    {
+      "url": "https://github-api.arkoselabs.com/fc/assets/ec-game-core/game-core/1.35.0/standard/924.vendors.ea33e7ebaefd19354536.js",
+      "type": "js-bundle",
+      "label": "audio-ui",
+      "size": 37881,
+      "path": "../arkose-scythe-data/bundles/2026-06-24T12-13-36.234Z/js/audio-ui_5d5175af.js",
+      "timestamp": "2026-06-24T12:13:58.387Z",
+      "mimeType": "application/javascript",
+      "headers": {
+        "etag": "W/\"dc449a28528f5124f7844a97bd3e3913\"",
+        "lastModified": "Thu, 04 Jun 2026 04:12:14 GMT",
+        "contentLength": "37881",
+        "contentType": "text/javascript"
+      },
+      "timing": {
+        "start": "2026-06-24T12:13:58.378Z",
+        "end": "2026-06-24T12:13:58.378Z",
+        "durationMs": null
+      }
+    },
+    {
+      "url": "https://github-api.arkoselabs.com/fc/assets/ec-game-core/game-core/1.35.0/standard/323.vendors.17e32cf13de68b476412.js",
+      "type": "js-bundle",
+      "label": "game-core",
+      "size": 232665,
+      "path": "../arkose-scythe-data/bundles/2026-06-24T12-13-36.234Z/js/game-core_e8f010dc.js",
+      "timestamp": "2026-06-24T12:13:58.401Z",
+      "mimeType": "application/javascript",
+      "headers": {
+        "etag": "W/\"4dde227c5da2c879dde4d9bbe0cf33e6\"",
+        "lastModified": "Thu, 04 Jun 2026 04:12:14 GMT",
+        "contentLength": "232665",
+        "contentType": "text/javascript"
+      },
+      "timing": {
+        "start": "2026-06-24T12:13:58.387Z",
+        "end": "2026-06-24T12:13:58.387Z",
+        "durationMs": null
+      }
+    },
+    {
+      "url": "https://github-api.arkoselabs.com/fc/assets/ec-game-core/game-core/1.35.0/standard/68.chunk.3d3a8fc2b60a2af61aa2.js",
+      "type": "js-bundle",
+      "label": "game-core",
+      "size": 369597,
+      "path": "../arkose-scythe-data/bundles/2026-06-24T12-13-36.234Z/js/game-core_b601436d.js",
+      "timestamp": "2026-06-24T12:13:58.487Z",
+      "mimeType": "application/javascript",
+      "headers": {
+        "etag": "W/\"0f58fa9466bc10b77977ce5e8734013c\"",
+        "lastModified": "Thu, 04 Jun 2026 04:12:14 GMT",
+        "contentLength": "369597",
+        "contentType": "text/javascript"
+      },
+      "timing": {
+        "start": "2026-06-24T12:13:58.401Z",
+        "end": "2026-06-24T12:13:58.402Z",
+        "durationMs": 1
+      }
+    },
+    {
+      "url": "https://github-api.arkoselabs.com/fc/gfct/",
+      "type": "api-response",
+      "label": "gfct",
+      "size": 9256,
+      "path": "../arkose-scythe-data/bundles/2026-06-24T12-13-36.234Z/api/gfct.json",
+      "timestamp": "2026-06-24T12:13:58.508Z",
+      "mimeType": "application/json",
+      "headers": {
+        "etag": null,
+        "lastModified": null,
+        "contentLength": "9256",
+        "contentType": "application/json; charset=utf-8"
+      },
+      "timing": {
+        "start": "2026-06-24T12:13:58.499Z",
+        "end": "2026-06-24T12:13:58.500Z",
+        "durationMs": 1
+      }
+    },
+    {
+      "url": "https://github-api.arkoselabs.com/fc/assets/ec-game-core/match-game/1.35.0/standard/remoteEntry.js",
+      "type": "js-bundle",
+      "label": "game-core",
+      "size": 12598,
+      "path": "../arkose-scythe-data/bundles/2026-06-24T12-13-36.234Z/js/game-core_97d976e8.js",
+      "timestamp": "2026-06-24T12:13:58.574Z",
+      "mimeType": "application/javascript",
+      "headers": {
+        "etag": "W/\"780ebeda0773f17e5c60bfee4e733f20\"",
+        "lastModified": "Thu, 04 Jun 2026 04:10:16 GMT",
+        "contentLength": "12598",
+        "contentType": "text/javascript"
+      },
+      "timing": {
+        "start": "2026-06-24T12:13:58.565Z",
+        "end": "2026-06-24T12:13:58.567Z",
+        "durationMs": 2
+      }
+    },
+    {
+      "url": "https://github-api.arkoselabs.com/fc/a/",
+      "type": "api-response",
+      "label": "api",
+      "size": 15,
+      "path": "../arkose-scythe-data/bundles/2026-06-24T12-13-36.234Z/api/api.json",
+      "timestamp": "2026-06-24T12:13:58.586Z",
+      "mimeType": "application/json",
+      "headers": {
+        "etag": null,
+        "lastModified": null,
+        "contentLength": "15",
+        "contentType": "text/plain; charset=utf-8"
+      },
+      "timing": {
+        "start": "2026-06-24T12:13:58.575Z",
+        "end": "2026-06-24T12:13:58.580Z",
+        "durationMs": 5
+      }
+    },
+    {
+      "url": "https://github-api.arkoselabs.com/fc/a/",
+      "type": "api-response",
+      "label": "api",
+      "size": 15,
+      "path": "../arkose-scythe-data/bundles/2026-06-24T12-13-36.234Z/api/api.json",
+      "timestamp": "2026-06-24T12:13:58.610Z",
+      "mimeType": "application/json",
+      "headers": {
+        "etag": null,
+        "lastModified": null,
+        "contentLength": "15",
+        "contentType": "text/plain; charset=utf-8"
+      },
+      "timing": {
+        "start": "2026-06-24T12:13:58.608Z",
+        "end": "2026-06-24T12:13:58.609Z",
+        "durationMs": 1
+      }
+    },
+    {
+      "url": "https://github-api.arkoselabs.com/fc/assets/ec-game-core/match-game/1.35.0/standard/264.chunk.7331e8214f33f65b121d.js",
+      "type": "js-bundle",
+      "label": "game-core",
+      "size": 15135,
+      "path": "../arkose-scythe-data/bundles/2026-06-24T12-13-36.234Z/js/game-core_b9de6243.js",
+      "timestamp": "2026-06-24T12:14:00.531Z",
+      "mimeType": "application/javascript",
+      "headers": {
+        "etag": "W/\"4f3693adb2f2ece9f85259ec9fceea30\"",
+        "lastModified": "Thu, 04 Jun 2026 04:10:16 GMT",
+        "contentLength": "15135",
+        "contentType": "text/javascript"
+      },
+      "timing": {
+        "start": "2026-06-24T12:14:00.528Z",
+        "end": "2026-06-24T12:14:00.529Z",
+        "durationMs": 1
+      }
+    },
+    {
+      "url": "https://github-api.arkoselabs.com/fc/assets/ec-game-core/match-game/1.35.0/standard/857.vendors.0d595949ba40e5527b8d.js",
+      "type": "js-bundle",
+      "label": "game-core",
+      "size": 132823,
+      "path": "../arkose-scythe-data/bundles/2026-06-24T12-13-36.234Z/js/game-core_ae2f24af.js",
+      "timestamp": "2026-06-24T12:14:00.568Z",
+      "mimeType": "application/javascript",
+      "headers": {
+        "etag": "W/\"4ea5aea890adbfe00fb5b7bba2e79745\"",
+        "lastModified": "Thu, 04 Jun 2026 04:10:16 GMT",
+        "contentLength": "132823",
+        "contentType": "text/javascript"
+      },
+      "timing": {
+        "start": "2026-06-24T12:14:00.530Z",
+        "end": "2026-06-24T12:14:00.531Z",
+        "durationMs": 1
+      }
+    },
+    {
+      "url": "https://github-api.arkoselabs.com/fc/assets/ec-game-core/match-game/1.35.0/standard/256.chunk.953ecc3d00d8d0b0cf2f.js",
+      "type": "js-bundle",
+      "label": "game-core",
+      "size": 105698,
+      "path": "../arkose-scythe-data/bundles/2026-06-24T12-13-36.234Z/js/game-core_7a4a297e.js",
+      "timestamp": "2026-06-24T12:14:00.570Z",
+      "mimeType": "application/javascript",
+      "headers": {
+        "etag": "W/\"e070cc6624ef99778085f11b77231176\"",
+        "lastModified": "Thu, 04 Jun 2026 04:10:15 GMT",
+        "contentLength": "105698",
+        "contentType": "text/javascript"
+      },
+      "timing": {
+        "start": "2026-06-24T12:14:00.532Z",
+        "end": "2026-06-24T12:14:00.532Z",
+        "durationMs": null
+      }
+    },
+    {
+      "url": "https://github-api.arkoselabs.com/fc/a/",
+      "type": "api-response",
+      "label": "api",
+      "size": 15,
+      "path": "../arkose-scythe-data/bundles/2026-06-24T12-13-36.234Z/api/api.json",
+      "timestamp": "2026-06-24T12:14:00.594Z",
+      "mimeType": "application/json",
+      "headers": {
+        "etag": null,
+        "lastModified": null,
+        "contentLength": "15",
+        "contentType": "text/plain; charset=utf-8"
+      },
+      "timing": {
+        "start": "2026-06-24T12:14:00.570Z",
+        "end": "2026-06-24T12:14:00.582Z",
+        "durationMs": 12
+      }
+    },
+    {
+      "url": "https://github-api.arkoselabs.com/dapib/us-west-2/45cb63bd-789a-417a-91a4-1eb62a7ceb2c/1110.js?expiry=1782305038454&mac=kroMHsL2%2BWRkCuqV8s2WRwfXIxPIOJUyrXkS8hfU%2FG0%3D",
+      "type": "js-bundle",
+      "label": "unknown",
+      "size": 3346,
+      "path": "../arkose-scythe-data/bundles/2026-06-24T12-13-36.234Z/js/unknown_92534577.js",
+      "timestamp": "2026-06-24T12:14:03.890Z",
+      "mimeType": "application/javascript",
+      "headers": {
+        "etag": null,
+        "lastModified": null,
+        "contentLength": "3346",
+        "contentType": "application/javascript; charset=UTF-8"
+      },
+      "timing": {
+        "start": "2026-06-24T12:14:03.880Z",
+        "end": "2026-06-24T12:14:03.880Z",
+        "durationMs": null
+      }
+    },
+    {
+      "url": "https://github-api.arkoselabs.com/fc/ca/",
+      "type": "api-response",
+      "label": "ca",
+      "size": 698,
+      "path": "../arkose-scythe-data/bundles/2026-06-24T12-13-36.234Z/api/ca.json",
+      "timestamp": "2026-06-24T12:14:03.984Z",
+      "mimeType": "application/json",
+      "headers": {
+        "etag": null,
+        "lastModified": null,
+        "contentLength": "698",
+        "contentType": "application/json"
+      },
+      "timing": {
+        "start": "2026-06-24T12:14:03.982Z",
+        "end": "2026-06-24T12:14:03.983Z",
+        "durationMs": 1
+      }
+    }
+  ],
+  "payloads": [],
+  "missing": []
+}
